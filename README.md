@@ -1,16 +1,13 @@
-# edumate2
+# edumate
 
-A new Flutter project.
+This project is a text-to-video content creation platform that allows users to transform written text, such as stories or historical events, into fully generated video narratives. It combines various technologies like text transformation, image generation, video synthesis, and text-to-audio conversion to create visually engaging content.
 
-## Getting Started
+## Requirements
 
-This project is a starting point for a Flutter application.
+Install the necessary Python packages:
+pip install google-ai-generativelanguage google-api-core google-api-python-client flask stability-sdk moviepy mutagen gtts
 
-A few resources to get you started if this is your first Flutter project:
+Add API keys where required in the code.
+Ensure that the appropriate API keys are included for services like Google and Stability AI.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Provide directory paths for saving photos, videos, and other assets as mentioned in the code.
